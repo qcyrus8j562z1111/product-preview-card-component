@@ -21,9 +21,16 @@
   <article class="product-card">
    <!-- Image Section -->
     <picture>
-      <source srcset="images/image-product-desktop.jpg">
+      <source 
+        media="(min-width: 600px)"
+        srcset="images/image-product-desktop.jpg"
+      >
       <!--Add Media Condition in source -->
-      <img class="product-card-image" src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum perfume bottle">
+      <img 
+        class="product-card-image" 
+        src="images/image-product-mobile.jpg" 
+        alt="Gabrielle Essence Eau De Parfum perfume bottle"
+      >
     </picture>
 
     <!-- Product Card Content -->
