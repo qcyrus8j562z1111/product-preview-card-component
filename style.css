@@ -74,3 +74,41 @@ body {
     color: var(--clr-gray);
     margin-bottom: 1.25rem;
 }
+
+/* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.product-price-current {
+    font-family: var(--ff-fraunces);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--clr-green-500);
+}
+
+.product-price-original {
+    font-family: var(--ff-montserrat);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--clr-gray);
+}
+
+/* Add to Cart Button */
+.product-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+
+    padding: 0.875rem;
+    border: 0;
+    border-radius: 0.5rem;
+
+    background-color: var(--clr-green-500);
+    color: var(--clr-white);
+}
