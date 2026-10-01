@@ -1,105 +1,140 @@
-# Frontend Mentor - Product preview card component
-
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
-
-## Welcome! 👋
-
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
-
-## The challenge
-
-Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
+# Frontend Mentor - Product Preview Card Component Solution
+ 
+This is my solution to the Product Preview Card Component challenge on Frontend Mentor. The goal was to build a responsive product card as closely as possible to the provided mobile and desktop designs using HTML and CSS.
+ 
+## Table of contents
+ 
+- #overview
+- #the-challenge
+- #screenshot
+- #links
+- #my-process
+- #built-with
+- #what-i-learned
+- #continued-development
+- #useful-resources
+- #ai-collaboration
+- #author
+ 
+## Overview
+ 
+### The challenge
+ 
+Users should be able to:
+ 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
-
-### Want some support on the challenge? 
-
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
-
-## Where to find everything
-
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
-
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
-
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
-
-You will find all the required assets in the `/images` folder. The assets are already optimized.
-
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
-
-## Using AI coding assistants
-
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
-
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
-
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
-
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+ 
+### Screenshot
+ 
+screenshots\Screenshot 2026-10-01 155405.png
+ 
+### Links
+ 
+- Solution URL: [Add Frontend Mentor solution URL]
+- Live Site URL:  https://qcyrus8j562z1111.github.io/product-preview-card-component/
+ 
+## My process
+ 
+I approached this challenge with a mobile-first workflow. I started by creating semantic HTML for the product card before moving into the CSS.
+ 
+I established reusable color and typography variables, built the mobile layout first, and then added a breakpoint when the component had enough room to transition naturally into the desktop two-column layout.
+ 
+I tested the component across a range of viewport widths rather than designing only for the 375px and 1440px reference sizes.
+ 
+### Built with
+ 
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Responsive images with the `<picture>` element
+- CSS media queries
+- Google Fonts
+- Hover and `:focus-visible` interaction states
+- Git and GitHub for version control
+ 
+### What I learned
+ 
+One of my biggest takeaways from this project was that the widths supplied by a design are reference sizes, not necessarily breakpoints. Instead of treating 375px as "mobile" and 1440px as "desktop," I tested the component across the full range of screen sizes and chose a 600px breakpoint based on when the layout itself had enough room to switch to two columns.
+ 
+I also practiced responsive image handling with the `<picture>` element:
+ 
+```html
+<picture>
+images/image-product-desktop.jpg
+images/image-product-mobile.jpg
+</picture>
+```
+ 
+Another useful technique was creating design tokens with CSS custom properties:
+ 
+```css
+:root {
+--clr-green-500: hsl(158, 36%, 37%);
+--clr-green-700: hsl(158, 42%, 18%);
+--clr-black: hsl(212, 21%, 14%);
+--clr-gray: hsl(228, 12%, 48%);
+--clr-cream: hsl(30, 38%, 92%);
+--clr-white: hsl(0, 0%, 100%);
+ 
+--ff-montserrat: "Montserrat", sans-serif;
+--ff-fraunces: "Fraunces", serif;
+}
+```
+ 
+This made the stylesheet easier to read and gave me one place to manage the project's colors and typography.
+ 
+I also learned more about accessible interaction states by giving the Add to Cart button separate mouse hover and keyboard focus styles:
+ 
+```css
+.product-button:hover {
+background-color: var(--clr-green-700);
+}
+ 
+.product-button:focus-visible {
+outline: 3px solid var(--clr-green-700);
+outline-offset: 3px;
+}
+```
+ 
+Finally, I got more practice using Git as part of the development process. I reviewed changes with `git diff`, created commits around meaningful project milestones, and even used Git to recover `index.html` after accidentally deleting it.
+ 
+### Continued development
+ 
+Going forward, I want to continue improving:
+ 
+- Responsive layout design
+- Translating static design references into CSS more efficiently
+- Typography and visual design matching
+- Accessible interaction states
+- Choosing breakpoints based on content rather than specific devices
+- Writing cleaner CSS with reusable patterns and design tokens
+- Building confidence with Git and professional commit workflows
+ 
+### Useful resources
+ 
+- MDN Web Docs - Helpful for reviewing CSS properties, responsive images, Flexbox concepts, media queries, and accessibility features such as `:focus-visible`.
+- Google Fonts - Used to load the Montserrat and Fraunces typefaces required by the project's style guide.
+- Frontend Mentor - Provided the challenge, reference designs, assets, and style guide.
+ 
+### AI collaboration
+ 
+I used Microsoft 365 Copilot as a learning and development partner while completing this project.
+ 
+Rather than having AI generate the completed project, I used it primarily to:
+ 
+- Break the project into manageable development stages
+- Explain HTML and CSS concepts while I implemented them
+- Review responsive layout decisions
+- Help troubleshoot problems
+- Explain Git commands and workflow
+- Review my work at different viewport sizes
+- Help document what I learned
+ 
+The most useful part of the process was working through the implementation incrementally while understanding why each technique was being used. I also learned that AI-generated suggestions still need to be reviewed carefully, especially when code formatting or implementation details do not behave as expected.
+ 
+## Author
+ 
+- Frontend Mentor - [\[Add Frontend Mentor profile\]](https://www.frontendmentor.io/profile/qcyrus8j562z1111)
+- GitHub - [[Add GitHub profile\]](https://github.com/qcyrus8j562z1111)
