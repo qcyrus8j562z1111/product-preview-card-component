@@ -27,7 +27,8 @@ Users should be able to:
  
 ### Screenshot
  
-screenshots\Screenshot 2026-10-01 155405.png
+<img width="751" height="581" alt="Screenshot 2026-10-01 155405" src="https://github.com/user-attachments/assets/fa8f1b1e-58ba-4750-a208-f5f7199caea6" />
+
  
 ### Links
  
