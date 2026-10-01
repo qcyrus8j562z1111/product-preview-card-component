@@ -39,3 +39,38 @@ body {
     align-items: center;
     padding: 1rem;
 }
+
+/* Product Image */
+.product-card-iamge {
+    display: block;
+    width: 100%;
+}
+
+/* Product Typography */
+.product-category {
+    font-family: var(--ff-montserrat);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--clr-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.75rem;
+}
+
+.product-title {
+    font-family: var(--ff-fraunces);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--clr-black);
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    font-family: var(--ff-montserrat);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--clr-gray);
+    margin-bottom: 1.25rem;
+}
